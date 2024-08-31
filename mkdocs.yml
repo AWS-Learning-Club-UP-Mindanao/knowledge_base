@@ -48,7 +48,7 @@ plugins:
   - blog:
       blog_dir: aws_cognito_workshop
   - search
-  - mkdocs-nav-weight
+  # - mkdocs-nav-weight
 
 nav:
   - Articles:
