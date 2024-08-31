@@ -1,12 +1,10 @@
 ---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
 # **Allow Access to Billing Console for an IAM user**
 
 By default, IAM users do not have access to the AWS Billing Console. To enable such access, the root user must first make a specific configuration change. This restriction is in place to enhance security and ensure that only trusted accounts can manage billing and account-related settings. Therefore, the root user must manually grant access by modifying the relevant IAM policies or settings.
-
-<!-- more -->
 
 ## **Allow Access to the Billing Console**
 

@@ -1,12 +1,10 @@
 ﻿---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
 # **AWS: Shared Responsibility Model**
 
 The **_AWS Shared Responsibility Model_** is a foundational concept in cloud security. It defines the division of security responsibilities between AWS and its customers, ensuring both parties contribute to a secure cloud environment.
-
-<!-- more -->
 
 ![](img/AWS%20Shared%20Responsibility%20Model.png)
 
@@ -29,4 +27,4 @@ AWS is responsible for securing the infrastructure that runs all of the services
 - Service Availability: Ensuring the resilience and redundancy of the global infrastructure, including AWS Regions, Availability Zones, and edge locations.
 - Operational Security: Protecting the underlying infrastructure through robust security measures, such as intrusion detection systems and regular audits.
 
-[Next >> Creating AWS Account](Creating%20AWS%20Account.md)
+[Next >> Creating AWS Account](03%20-%20Creating%20AWS%20Account.md)

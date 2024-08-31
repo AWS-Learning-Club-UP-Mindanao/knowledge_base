@@ -1,16 +1,14 @@
 ---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
-# **Creating an AWS User Account**
+# Creating an AWS User Account
 
 ### PREREQUISITE
 
 - Payment Method - provide a valid credit card or another payment method for identity verification and billing purposes.
 
 The AWS offers a free tier with limited free resources, you must provide a valid credit card or another payment method for identity verification and billing purposes.
-
-<!-- more -->
 
 ## Steps to Create an AWS User Account
 
@@ -51,4 +49,4 @@ Business and personal accounts have similar features and functions. In business 
 
    Some instances occur where the process may usually take up to 24 hours. When this happens, you can still sign in to your AWS Account but the Complete Sign Up button shows up despite completing the steps of the sign-up process. ![](img/008.png)
 
-[Next >> Setting Up MFA](MFA.md)
+[Next >> Setting Up MFA](04%20-%20Multi-factor%20Authentication.md)

@@ -1,5 +1,5 @@
 ---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
 # **IAM ROLES**
@@ -12,8 +12,6 @@ Roles offer a way to _**grant temporary access**_ to AWS resources without relyi
 
 - IAM roles are versatile and can be used in several important ways. They allow **AWS services**, such as EC2 instances, to securely access other AWS resources like S3 buckets. Additionally, they facilitate **cross-account access**, enabling resources and permissions to be shared between different AWS accounts. IAM roles also support **role chaining**, where multiple roles can be assumed in sequence to achieve varying levels of access.
 - The structure of IAM roles includes key components: **Trust Policies**, which define who is allowed to assume the role; **Permissions Policies**, which specify what actions the role can perform; and **Permissions Boundaries**, which set the maximum permissions that the role can grant.
-
-<!-- more -->
 
 - **Use Cases:**
   - **Access Within AWS**: Allow applications (e.g., EC2 instances) to securely access other AWS resources (e.g., S3 buckets).
@@ -96,4 +94,6 @@ Roles offer a way to _**grant temporary access**_ to AWS resources without relyi
 3. **Role Assumption**: AWS uses the token to grant access by allowing the user to assume an IAM role with specific permissions.
 4. **Temporary Access**: AWS provides temporary credentials based on the role, allowing access to resources.
 
-[Next >> Creating an IAM User](Creating%20an%20IAM%20User.md)
+[Next >> Using IAM Roles](12%20-%20Using%20IAM%20Roles.md)
+
+<!-- (12%20-%20Simple%20Identity%20Policies%20in%20AWS.md) -->

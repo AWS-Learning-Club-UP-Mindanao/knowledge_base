@@ -1,14 +1,12 @@
 ---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
-# **IAM Users and ARNs**
+# IAM Users and ARNs
 
 ## **What is an IAM User?**
 
 An IAM user is a regular account that you create for someone who needs access to your AWS resources. It is similar to giving someone a unique, personalized key that only opens specific doors you have assigned to them.
-
-<!-- more -->
 
 ### **Why create IAM Users?**
 
@@ -115,4 +113,4 @@ arn:aws:ec2:us-west-2:123456789012:instance/i-0abcd1234ef567890
 
 - **Resource-type/resource-id**: Specifies the resource type and the unique identifier for the resource. The format and inclusion of resource-type may vary depending on the service.
 
-[Next >> Creating Access Keys and Setting Up AWS v2 Tools](IAM%20Access%20Keys.md)
+[Next >> Creating Access Keys and Setting Up AWS v2 Tools](08%20-%20IAM%20Access%20Keys.md)

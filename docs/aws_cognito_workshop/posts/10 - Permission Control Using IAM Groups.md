@@ -1,5 +1,5 @@
 ---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
 # **Permission Control Using IAM Groups**
@@ -9,8 +9,6 @@ date: 2024-08-27
 Creating and managing **IAM (Identity and Access Management)** user groups in AWS is essential for maintaining a secure and organized environment. User groups allow you to efficiently manage permissions for multiple users by assigning policies to a group rather than individually configuring each user's access.
 
 In this guide, you'll learn how to create an IAM user group, attach policies to the group, and add users to it. This process ensures that users within a group inherit the same set of permissions, making it easier to manage access control across your AWS environment.
-
-<!-- more -->
 
 ## Steps Overview
 
@@ -65,4 +63,4 @@ In this guide, you'll learn how to create an IAM user group, attach policies to 
 
 The user is now added to the selected group, and will inherit the permissions assigned to that group.
 
-[Next >> IAM Roles](IAM%20Roles.md)
+[Next >> IAM Roles](11%20-%20IAM%20Roles.md)

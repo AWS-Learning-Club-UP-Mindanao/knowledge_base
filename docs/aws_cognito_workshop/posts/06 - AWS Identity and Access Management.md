@@ -1,5 +1,5 @@
 ---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
 # **AWS Identity and Access Management**
@@ -7,8 +7,6 @@ date: 2024-08-27
 ## **Introduction**
 
 **AWS Identity and Access Management (IAM)** is a fundamental service in AWS that allows you to control access to AWS resources securely. This workshop will guide you through the key features of IAM, how they work, and best practices for implementing IAM in your AWS environment.
-
-<!-- more -->
 
 > IAM enables the creation and management of users, user groups, and permissions for AWS services. It also supports integration with third-party solutions, facilitating the management of federated users, which allows external users to access AWS resources securely.
 
@@ -62,7 +60,7 @@ Roles offer a way to _**grant temporary access**_ to AWS resources without relyi
 
 IAM Identities enables you to grant different levels of access to different identities, but how exactly do you manage the credentials attached and the access-level allowed?
 
-IAM policies are attached to policies. IAM Policies are JSON documents that define the permissions for API calls and entities, detailing effects, actions, resources, and conditions. They determine what controls are activated, as all controls are off by default. These policies are attached to identities, such as users, groups, and roles, to manage their permissions. IAM Policies are accessible through the AWS CLI, AWS SDKs, and the AWS Management Console.
+IAM policies are attached to identities. IAM Policies are JSON documents that define the permissions for API calls and entities, detailing effects, actions, resources, and conditions. They determine what controls are activated, as all controls are off by default. These policies are attached to identities, such as users, groups, and roles, to manage their permissions. IAM Policies are accessible through the AWS CLI, AWS SDKs, and the AWS Management Console.
 
 **Policy Categories:**
 
@@ -103,4 +101,4 @@ IAM Access Analyzer helps you manage and refine permissions by continuously anal
 - **Permissions Analysis:** Identify unused or excessive permissions and adjust them to align with best practices.
 - **Least Privilege:** Continuously refine permissions to ensure that users and services have the minimum access necessary.
 
-[Next >> IAM Users](IAM%20Users%20and%20ARNs.md)
+[Next >> IAM Users](07%20-%20IAM%20Users%20and%20ARNs.md)

@@ -1,5 +1,5 @@
 ---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
 # **Creating a Budget and Setting Up Budget Alarms**
@@ -9,8 +9,6 @@ date: 2024-08-27
 AWS Budgets allows you to set custom spending limits on your AWS costs and usage. You can receive alerts when you exceed your budget or approach the limit, helping you keep track of your expenditures. By setting up AWS Budgets, you can gain better control over your AWS spending and avoid unexpected charges.
 
 You can set up a budget in two ways: using a budget template, or customizing your own. To better understand budgets, let's set up your own customized budget.
-
-<!-- more -->
 
 ## **Creating a Budget**
 
@@ -93,4 +91,4 @@ Since we’ve set up a customized budget already, you’ve already likely unders
 
 After creating your budget, you can monitor it from the AWS Budgets dashboard. This section will show you how much you’ve spent and how it compares to your budgeted amount. You can also create budget reports to monitor the performance of your existing budgets on a daily, weekly, or monthly frequency and deliver that report to up to 50 email addresses.
 
-[Next >> Identity and Access Management](AWS%20Identity%20and%20Access%20Management.md)
+[Next >> Identity and Access Management](06%20-%20AWS%20Identity%20and%20Access%20Management.md)

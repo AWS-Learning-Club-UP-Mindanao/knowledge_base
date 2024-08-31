@@ -1,14 +1,12 @@
 ---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
-# **Simple Identity Policies in AWS**
+# Identity Policies in AWS
 
 ## What are AWS IAM Permissions and Policies?
 
 Permissions in AWS IAM define what actions an identity (user, group, or role) can perform on AWS resources. These permissions are granted through **policies**, which are attached to identities. Policies are objects that define permissions and can be attached to identities.
-
-<!-- more -->
 
 ### Why Are Permissions Important?
 
@@ -156,3 +154,7 @@ If you need fine-grained control and a high degree of specificity, create inline
    - Click **Review policy**.
    - Give your policy a meaningful name.
    - Click **Create policy** to apply it.
+
+[Next >> IAM Policy Simulator](14%20-%20IAM%20Policy%20Simulator.md)
+
+<!-- (13%20-%20Allowing%20Access%20to%20Billing%20Console.md) -->

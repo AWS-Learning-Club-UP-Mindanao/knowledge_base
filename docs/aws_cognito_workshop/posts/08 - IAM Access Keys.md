@@ -1,16 +1,14 @@
 ---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
-# **IAM Access Keys**
+# IAM Access Keys
 
 ## **What are IAM Access Keys?**
 
 IAM Access Keys consist of two components: an _**Access Key ID**_ and a _**Secret Access Key**_. These keys are analogous to a username and password and are used to sign programmatic requests to AWS services.
 
 The **Access Key ID** is a unique identifier, while the Secret Access Key is a secret that should only be known by the user who owns the key.
-
-<!-- more -->
 
 ![](img/keys-1.png)
 
@@ -218,3 +216,5 @@ cat ~/.aws/credentials
 ```bash
 aws s3 ls --profile myprofile
 ```
+
+[Next >> IAM Groups](09%20-%20IAM%20Groups.md)

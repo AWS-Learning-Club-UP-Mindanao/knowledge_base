@@ -1,5 +1,5 @@
 ﻿---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
 # **AWS Getting Started**
@@ -9,8 +9,6 @@ date: 2024-08-27
 **Amazon Web Services (AWS)** is a secure and comprehensive cloud computing platform provided by Amazon. A **cloud platform** offers a range of services like computing power, storage, databases, and networking over the internet, allowing users to manage and scale resources without owning physical hardware. AWS embodies this concept by delivering a vast array of services on a "pay-as-you-go" basis, meaning you only pay for what you use. Known for its reliability, scalability, and flexibility, AWS supports a wide range of applications and use cases.
 
 An AWS account is like a container where you keep all your AWS resources and manage them. It handles two main things: access control (who can use the resources) and billing (how much you are charged).
-
-<!-- more -->
 
 ![](img/basics-01.jpg)
 
@@ -158,4 +156,4 @@ To safeguard your AWS management account and ensure effective organizational man
 
 - **Delegate Responsibilities**: Delegate tasks and permissions to other accounts where possible. Use features like AWS Service Catalog and AWS CloudFormation StackSets to allow teams to manage their needs without direct access to the management account.
 
-[Next >> Shared Responsibility Model](Shared%20Responsibility%20Model.md)
+[Next >> Shared Responsibility Model](02%20-%20Shared%20Responsibility%20Model.md)

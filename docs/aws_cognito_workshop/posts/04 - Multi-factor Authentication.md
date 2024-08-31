@@ -1,5 +1,5 @@
 ﻿---
-date: 2024-08-27
+date: 2024-08-31
 ---
 
 # **Multi-factor Authentication**
@@ -9,8 +9,6 @@ Before we delve into the actual application of MFA, let’s first understand the
 ## MFA Concept: A safe with two locks.
 
 Imagine a safe that requires two keys to open. One key is something that you have, but you also need the second key to unlock the safe. Just as a safe with two locks requires two keys to be opened, MFA requires two different factors to access your account. Even if someone has the first key (personal password), they cannot open the safe without the second key (MFA code).
-
-<!-- more -->
 
 ![](img/MFA-01.jpg)
 
@@ -79,4 +77,4 @@ Congratulations! You can access your account now.
 
 In conclusion, multi factor authentication (MFA) is a vital security tool that significantly enhances the protection of your online accounts by requiring multiple forms of verification. By implementing MFA, you add an extra layer of defense against unauthorized access, making it much more difficult for malicious actors to compromise your sensitive information. In today’s digital world, where cyber threats are constantly evolving, MFA is an essential component of any robust security strategy.
 
-[Next >> Creating a Budget and Setting Up Budget Alarms](Creating%20a%20Budget%20and%20Setting%20Up%20Budget%20Alarms.md)
+[Next >> Creating a Budget and Setting Up Budget Alarms](05%20-%20Creating%20a%20Budget%20and%20Setting%20up%20Budget%20Alarms.md)
