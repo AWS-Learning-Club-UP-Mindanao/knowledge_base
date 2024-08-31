@@ -1,5 +1,5 @@
 ---
-date: 2024-08-31
+date: 2024-08-15
 ---
 
 # **Using the AWS IAM Policy Simulator: Test Your IAM Policies Before Applying**

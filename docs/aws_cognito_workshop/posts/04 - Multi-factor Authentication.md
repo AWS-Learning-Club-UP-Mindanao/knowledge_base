@@ -1,5 +1,5 @@
 ﻿---
-date: 2024-08-31
+date: 2024-08-05
 ---
 
 # **Multi-factor Authentication**
