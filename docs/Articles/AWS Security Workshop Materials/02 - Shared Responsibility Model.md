@@ -1,10 +1,6 @@
-﻿---
-date: 2024-08-03
----
+﻿# **AWS: Shared Responsibility Model**
 
-# **AWS: Shared Responsibility Model**
-
-The **_AWS Shared Responsibility Model_** is a foundational concept in cloud security. It defines the division of security responsibilities between AWS and its customers, ensuring both parties contribute to a secure cloud environment.
+The ***AWS Shared Responsibility Model*** is a foundational concept in cloud security. It defines the division of security responsibilities between AWS and its customers, ensuring both parties contribute to a secure cloud environment.
 
 ![](img/AWS%20Shared%20Responsibility%20Model.png)
 

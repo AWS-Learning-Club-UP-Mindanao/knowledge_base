@@ -18,14 +18,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: teal
-      accent: purple
+      primary: pink
+      accent: light blue
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
-      accent: lime
+      primary: pink
+      accent: light blue
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -43,16 +43,3 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-
-plugins:
-  - blog:
-      blog_dir: aws_cognito_workshop
-  - search
-  # - mkdocs-nav-weight
-
-nav:
-  - Articles:
-      - "aws_cognito_workshop/index.md"
-
-  - About:
-      - index.md

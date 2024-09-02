@@ -1,7 +1,3 @@
----
-date: 2024-08-14
----
-
 # Identity Policies in AWS
 
 ## What are AWS IAM Permissions and Policies?
@@ -29,29 +25,31 @@ Permissions in AWS IAM define what actions an identity (user, group, or role) ca
    - Go to IAM or search for IAM in the search bar.
    - Select Users, User Groups, or Roles from the sidebar.
 
-     ![alt text](img/permission.png)
+      ![alt text](img/permission.png)
 
 2. **Select the Identity**
 
    - **Click on the user/user group/role to which you want to add permissions.**
 
-     ![alt text](<img/click user.png>)
+      ![alt text](<img/click user.png>)
+
+
 
 3. **Attach Policies**
 
    - Go to the Permissions tab and click **Add permissions**.
 
-     ![alt text](<img/attatch policies.png>)
+      ![alt text](<img/attatch policies.png>)
 
-     ![alt text](<img/attatch policies2.png>)
-
+      ![alt text](<img/attatch policies2.png>)
+  
    - Choose **Attach policies directly** to assign managed or inline policies.
 
-     ![alt text](<img/attatch policies directly.png>)
+      ![alt text](<img/attatch policies directly.png>)
 
    - Find the appropriate policy using the search bar and select it.
 
-     ![alt text](<img/find appro policy.png>)
+      ![alt text](<img/find appro policy.png>)
 
 ### Common AWS Managed Policies
 
@@ -61,34 +59,37 @@ Permissions in AWS IAM define what actions an identity (user, group, or role) ca
    - **Full Control Over All Resources**: Create, modify, delete, and configure any AWS resource.
    - **No Restrictions**: No limitations or conditions imposed.
 
-     ![alt text](<img/no restrictions.png>)
+      ![alt text](<img/no restrictions.png>)
 
 2. ReadOnlyAccess
 
    - **Read-Only Access**: Provides read-only access to all AWS services.
    - **Use Case**: Ideal for users who need to view resources across all AWS services.
 
-     ![alt text](<img/use case.png>)
-
+      ![alt text](<img/use case.png>)
+ 
 <p align="center">
   (The policy search bar works by finding all results with that text, so other more specific policies may pop up first).
 </p>
 
+
 3. IAMFullAccess
 
-   ![alt text](<img/iam full access.png>)
+    ![alt text](<img/iam full access.png>)
 
    - **Purpose**: Grants full access to IAM.
    - **Permissions**: Manage IAM users, groups, roles, and policies.
    - **Use Case**: Best for administrators managing IAM aspects.
 
+
 4. IAMUserChangePassword
 
-   ![alt text](<img/change pass.png>)
+    ![alt text](<img/change pass.png>)
 
    - **Purpose**: Allows users to change their own IAM password.
    - **Permissions**: Allows actions like `iam:ChangePassword`.
    - **Use Case**: Attach to users who need to manage their own password.
+
 
 ## Custom Inline Policies
 
@@ -101,9 +102,11 @@ If you need fine-grained control and a high degree of specificity, create inline
    - For the user, group, or role, go to the Permissions tab.
    - Click **Add inline policy**.
 
+
 2. **Use the Policy Editor**
 
    - **Visual Editor**: Define permissions by selecting actions, resources, and conditions through a guided interface.
+
 
    - **JSON Editor**: Write the policy directly for more flexibility.
 
@@ -149,12 +152,14 @@ If you need fine-grained control and a high degree of specificity, create inline
      }
      ```
 
+
 3. **Review and Name Your Policy**
 
    - Click **Review policy**.
    - Give your policy a meaningful name.
    - Click **Create policy** to apply it.
 
-[Next >> IAM Policy Simulator](14%20-%20IAM%20Policy%20Simulator.md)
+
+[Next >> IAM Policy Simulator](13%20-%20IAM%20Policy%20Simulator.md)
 
 <!-- (13%20-%20Allowing%20Access%20to%20Billing%20Console.md) -->
