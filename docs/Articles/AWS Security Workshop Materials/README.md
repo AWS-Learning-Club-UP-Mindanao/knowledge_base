@@ -1,8 +1,8 @@
-<!-- <h2 align="center">Strengthen Your AWS Account: Security 101 with IAM</h2> -->
-
 # **Welcome!**
 
-![](img/banner.png)
+<!-- <h2 align="center">Strengthen Your AWS Account: Security 101 with IAM</h2> -->
+
+<img alt="AWS Workshop Banner" width="1412" src="img/banner.png">
 
 <h1 align="center" style="border-bottom: none;">First Line of Defense: AWS Account Security 101 with IAM</h1>
 
