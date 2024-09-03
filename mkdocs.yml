@@ -1,6 +1,8 @@
 site_name: ALC Knowledge Base
 theme:
-  language: en
+  logo: assets/logo/alc_logo.png
+  favicon: assets/logo/alc_logo.png
+  lankuage: en
   name: material
   features:
     - navigation.path
