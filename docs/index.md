@@ -1,4 +1,9 @@
-# Home
+---
+hide:
+  - navigation
+  - toc
+---
+# AWS Learning Club - UP Mindanao
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
