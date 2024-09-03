@@ -1,4 +1,10 @@
-# **About**
+---
+hide:
+  - navigation
+  - toc
+---
+
+# **Home**
 
 ![ALC Logo](assets/logo/alc_logo.png)
 

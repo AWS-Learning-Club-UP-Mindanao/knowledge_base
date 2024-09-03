@@ -3,10 +3,13 @@ site_name: ALC Knowledge Base
 theme:
   name: material
   features:
-    - navigation.tabs 
-    - navigation.sections
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.indexes
     - navigation.top
-    - navigation.footer
+    - navigation.tracking
     - search.suggest
     - search.highlight
     - content.tabs.link
