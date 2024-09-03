@@ -17,7 +17,9 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-
+  nav:
+    - Home: index.md
+  
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
