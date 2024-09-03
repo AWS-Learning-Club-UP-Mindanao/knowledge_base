@@ -16,9 +16,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  nav:
-    - Home: index.md
-  
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -52,3 +50,14 @@ theme:
     - pymdownx.emoji:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg 
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/awsccupmindanao
+      name: ALC - UP Mindanao GitHub
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/awscc.up
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/awscc-upmin/

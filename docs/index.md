@@ -3,20 +3,17 @@ hide:
   - navigation
   - toc
 ---
-# AWS Learning Club - UP Mindanao
+<div align='center'>
+<img src='assets/logo/alc_logo.png' width='350'>
+<br><br>
+<h1>AWS Learning Club - UP Mindanao</h1>
+</div>
+Amazon Web Services Learning Club - University of the Philippines Mindanao is the **first official AWS student organization in Mindanao**. Founded in early 2024, this club fosters AWS knowledge growth through **workshops, knowledge sharing, and community building**.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## **Mission**
 
-## Commands
+Foster a **collaborative learning environment** to empower individuals of all backgrounds to gain proficiency in Amazon Web Services (AWS) through workshops, knowledge sharing, and community building.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## **Vision**
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+To become a **premier learning hub** that cultivates a skilled and passionate cloud computing community leveraging AWS to **drive innovation and create positive impact**.
