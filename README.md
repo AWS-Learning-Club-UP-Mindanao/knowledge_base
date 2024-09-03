@@ -1,4 +1,4 @@
-# Feature Layout for ALC Workshop Materials
+# Feature Layout for ALC Knowledge Base
 
 #### Note: If there are more than 2 workshop materials, you can add an index.md file inside the Article directory
 
