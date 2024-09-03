@@ -1,14 +1,6 @@
----
-date: 2024-08-01
----
-
-# **Welcome!**
-
 <!-- <h2 align="center">Strengthen Your AWS Account: Security 101 with IAM</h2> -->
 
-<!-- <img alt="AWS Workshop Banner" width="1412" src="./img/banner.png"> -->
-
-![](img/banner.png)
+<img alt="AWS Workshop Banner" width="1412" src="img/banner.png">
 
 <h1 align="center" style="border-bottom: none;">First Line of Defense: AWS Account Security 101 with IAM</h1>
 
@@ -19,7 +11,6 @@ date: 2024-08-01
 </p>
 
 ## **Table of Contents**
-
 - [**Workshop Overview**](#workshop-overview)
 - [**Prerequisites**](#prerequisites)
 - [**Workshop Elements**](#workshop-elements)
@@ -100,35 +91,29 @@ Gain expertise in managing and controlling your cloud spend with these topics:
 Explore the core components of IAM and how to use them effectively:
 
 ### [Users and ARNs](IAM%20Users%20and%20ARNs.md)
-
 - **IAM Users**: How to create and manage IAM users.
 - **Amazon Resource Names (ARNs)**: Understanding and using ARNs to specify resources.
 
 #### Creating an Admin IAM User
-
 - **Admin User Creation**: Detailed process for setting up an admin IAM user with appropriate permissions.
 - **Securing Admin Users**: Best practices for securing admin accounts.
 
 ### [Access Keys and AWS CLI v2](IAM%20Access%20Keys.md)
-
 - **Generating Access Keys**: How to create and manage access keys for programmatic access.
 - **Using AWS CLI v2**: Configuring and using AWS CLI v2 with access keys.
 
 ### [Groups and Permission Management](IAM%20Group.md)
-
 - **IAM Groups**: How to create and manage IAM groups for organizing users.
 - **Permissions Management**: Assigning permissions to groups and understanding permission policies.
 
 ### [Defining IAM Roles](IAM%20Roles.md)
-
 - **Defining IAM Roles**: How to create and configure IAM roles for various use cases.
 
 ### [IAM Policies](Simple%20Identity%20Policies%20in%20AWS.md)
-
 - **Attaching Policies**: Best practices for attaching and managing policies.
 
-#### Policy Simulator
 
+#### Policy Simulator
 - **Using the Policy Simulator**: How to test and validate IAM policies to ensure they meet your security requirements.
 - **Interpreting Results**: Understanding simulation results to refine policies.
 

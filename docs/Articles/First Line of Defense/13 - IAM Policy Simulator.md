@@ -1,7 +1,3 @@
----
-date: 2024-08-15
----
-
 # **Using the AWS IAM Policy Simulator: Test Your IAM Policies Before Applying**
 
 ## **What is the AWS IAM Policy Simulator?**
@@ -12,10 +8,10 @@ The AWS IAM Policy Simulator is a powerful tool that lets you test the effects o
 
 To get started, follow these steps:
 
-1. **Login to AWS Management Console**:
+1. **Login to AWS Management Console**: 
    Navigate to the AWS Management Console and sign in to your account.
 
-2. **Search for IAM**:
+2. **Search for IAM**: 
    In the search bar, type "IAM" and select it from the dropdown list.
 
 3. **Navigate to Policy Simulator**:
@@ -29,17 +25,32 @@ To get started, follow these steps:
 
 In the IAM Policy Simulator, you have the option to select policies attached to users, groups, or roles, or you can paste a policy directly into the simulator. Here’s how you can do it:
 
-1. **Choose the Entity**:
+1. **Choose the Entity**: 
    Select whether you want to simulate a policy for a user, group, role, or directly enter a policy.
 
-2. **Select the Policy**:
-   If you chose a user, group, or role, you’ll see a list of associated policies. Check the box next to the policy you want to simulate.
+   ![](img/policysim-2.png)
 
-3. **Paste a Policy**:
-   If you want to test a custom policy, click on "Create Policy" and paste your JSON policy into the editor.
+2. **Select the Policy**: 
+   If you chose a user, group, or role, you’ll see a list of associated policies. Check the box next to the policy you want to simulate. In this case, we want to test the permissions set to user `0xshr00msz` using Amazon S3, selecting all of its actions and simulate.
+
+   ![](img/policysim-3.png)
+
+
+
 
 ### **Step 2: Choose Actions to Simulate**
 
-Next, you'll need
+Next, you'll need to simulate actions to test various permissions.
 
-[Next >> Allowing Access to Billing Console](15%20-%20Allowing%20Access%20to%20Billing%20Console.md)
+1. **Simulate Actions**:
+   After clicking the `Run Simulation`, you can see the allowed and denied permissions based on the actions you selected. 
+
+   ![](img/policysim-5.png)
+
+2. **Review Results**:
+   Since user `0xshr00msz` has AdministratorAccess, all permissions are expected to be allowed as seen from the image below
+
+   ![](img/policysim-6.png)
+
+
+[Next >> Allowing Access to Billing Console](14%20-%20Allowing%20Access%20to%20Billing%20Console.md)
