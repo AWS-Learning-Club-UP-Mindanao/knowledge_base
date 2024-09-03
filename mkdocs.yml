@@ -4,7 +4,6 @@ theme:
   name: material
   features:
     - navigation.path
-    - navigation.expand
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.tabs
