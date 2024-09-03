@@ -1,4 +1,4 @@
-site_name: mkdocs practice
+site_name: ALC Knowledge Base
 theme:
   language: en
   name: material
@@ -8,15 +8,16 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.tabs
-    - navigation.sections
     - navigation.indexes
     - navigation.top
+    - navigation.tracking
     - toc.follow
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -33,5 +34,20 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
   
+  markdown-extensions:
+    - pymdownx.highlight:
+      anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - admonition
+    - pymdownx.arithmatex:
+        generic: true
+    - footnotes
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.mark
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg 
