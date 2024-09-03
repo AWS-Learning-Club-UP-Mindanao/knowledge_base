@@ -3,7 +3,7 @@ site_name: ALC Knowledge Base
 theme:
   name: material
   features:
-    - navigation.tabs
+    - navigation.tabs 
     - navigation.sections
     - navigation.top
     - navigation.footer
