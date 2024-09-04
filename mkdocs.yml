@@ -1,4 +1,5 @@
 site_name: ALC Knowledge Base
+site_url: https://awsccupmindanao.github.io/knowledge_base/
 theme:
   logo: assets/logo/alc_logo.png
   favicon: assets/logo/alc_logo.png
