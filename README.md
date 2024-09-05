@@ -11,6 +11,8 @@ docs/
 ├── assets/
 └── index.md
 ```
-Authors
-- @Maakkkuu
-- @prcsmae
+Authors:
+- [@prcsmae](https://github.com/prcsmae)
+- [@ASPactores](https://github.com/ASPactores)
+- [@Maakkkuu](https://github.com/Maakkkuu)
+
