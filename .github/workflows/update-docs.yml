@@ -1,4 +1,4 @@
-name: Update Documentation from Repo 1
+name: Update Documentation from Workshops repo
 
 on:
   repository_dispatch:
