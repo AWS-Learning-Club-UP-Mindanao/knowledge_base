@@ -4,9 +4,10 @@
 
 ```
 docs/
-├── Articles/
-│   ├── First Line of Defense/
-│   └── index.md
+├── Workshops/
+    ├── Security
+│       ├── First Line of Defense/
+│       └── index.md
 ├── assets/
 └── index.md
 ```
