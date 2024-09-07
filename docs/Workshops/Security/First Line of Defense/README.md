@@ -1,3 +1,6 @@
+---
+ title: Workshops
+---
 <!-- <h2 align="center">Strengthen Your AWS Account: Security 101 with IAM</h2> -->
 
 <img alt="AWS Workshop Banner" width="1412" src="img/banner.png">
