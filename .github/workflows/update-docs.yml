@@ -1,0 +1,36 @@
+name: Update Documentation from Workshops repo
+
+on:
+  repository_dispatch:
+    types: [docs-updated]
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+
+      - name: Checkout Workshops repo
+        uses: actions/checkout@v4
+        with:
+          repository: awsccupmindanao/Workshops
+          path: temp-repo1
+          ref: main  
+
+      - name: Copy files
+        run: |
+          rsync -av --exclude='.git' --exclude='.github' temp-repo1/ docs/Workshops/
+          rm -rf temp-repo1
+
+      # TODO confirm the git credentials
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.email "awsccupmindanao@gmail.com"
+          git config --global user.name "awsccupmindanao"
+          git add .
+          git commit -m "docs: update material from workshops"
+          git push
+     
+

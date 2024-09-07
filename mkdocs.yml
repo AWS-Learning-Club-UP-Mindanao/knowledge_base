@@ -1,6 +1,9 @@
 site_name: ALC Knowledge Base
+site_url: https://awsccupmindanao.github.io/knowledge_base/
 theme:
-  language: en
+  logo: assets/logo/alc_logo.png
+  favicon: assets/logo/alc_logo.png
+  lankuage: en
   name: material
   features:
     - navigation.path
@@ -24,7 +27,7 @@ theme:
       primary: purple
       accent: deep purple
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
 
     - media: "(prefers-color-scheme: dark)"
@@ -32,7 +35,7 @@ theme:
       primary: deep purple
       accent: purple
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
   
   markdown-extensions:
