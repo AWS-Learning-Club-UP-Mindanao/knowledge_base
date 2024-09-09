@@ -1,6 +1,6 @@
 # ALC Knowledge Base
 
-Your one-stop AWS Documentation 
+Your one-stop AWS Documentation for our AWS Workshops!
 
 ### Devs:
 - [@prcsmae [Precious Mae Jomuad]](https://github.com/prcsmae)
