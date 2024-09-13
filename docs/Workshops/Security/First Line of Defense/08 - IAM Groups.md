@@ -1,4 +1,4 @@
-# **IAM GROUPS**
+# **IAM Groups**
 
 An **IAM group** is a collection of users with specific permissions assigned to all group members. This approach simplifies the management of user privileges by allowing administrators to assign permissions to groups rather than to each user individually. 
 
