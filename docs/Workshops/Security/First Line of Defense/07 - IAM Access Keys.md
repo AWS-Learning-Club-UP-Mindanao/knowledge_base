@@ -153,7 +153,8 @@ Click the Upload button to start the upload process.
 aws s3 ls
 ```
 
-### **Testing: List S3 Buckets Using Specific Profile**
+### **Testing: List S3 Buckets Using Specific Profile (Optional)**
+If you have multiple profiles configured in your AWS CLI, follow the steps below to list S3 buckets using a specific profile.
 
 View the profile list created: 
 
