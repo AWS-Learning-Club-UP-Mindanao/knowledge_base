@@ -65,3 +65,4 @@ Roles offer a way to _**grant temporary access**_ to AWS resources without relyi
 [Next >> Using IAM Roles](11%20-%20Using%20IAM%20Roles.md)
 
 <!-- (12%20-%20Simple%20Identity%20Policies%20in%20AWS.md) -->
+

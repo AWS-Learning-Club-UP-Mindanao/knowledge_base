@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- <h2 align="center">Strengthen Your AWS Account: Security 101 with IAM</h2> -->
 ---
  title: First Line of Defense 
