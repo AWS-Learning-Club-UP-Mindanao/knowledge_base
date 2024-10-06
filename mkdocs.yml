@@ -1,9 +1,9 @@
 site_name: ALC Knowledge Base
-site_url: https://awsccupmindanao.github.io/knowledge_base/
+site_url: https://AWS-Learning-Club-UP-Mindanao.github.io/knowledge_base/
 theme:
   logo: assets/logo/alc_logo.png
   favicon: assets/logo/alc_logo.png
-  lankuage: en
+  language: en
   name: material
   features:
     - navigation.path
