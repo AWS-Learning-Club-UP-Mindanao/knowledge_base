@@ -1,0 +1,14 @@
+.landing-main-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.landing-workshop-container {
+    border-radius: 20px;
+}
+
+.landing-workshop-container-title {
+    font-size: 0.9rem;
+    text-align: center;
+}

@@ -67,3 +67,6 @@ extra:
       link: https://www.facebook.com/awscc.up
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/awscc-upmin/
+
+extra_css:
+  - stylesheets/extra.css
