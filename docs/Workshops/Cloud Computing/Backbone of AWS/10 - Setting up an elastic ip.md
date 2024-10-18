@@ -1,4 +1,4 @@
-# Workshop Guide: Setting Up an Elastic IP on AWS EC2
+# Setting Up an Elastic IP on AWS EC2
 
 ## Prerequisites
 - An existing EC2 instance to associate the Elastic IP with

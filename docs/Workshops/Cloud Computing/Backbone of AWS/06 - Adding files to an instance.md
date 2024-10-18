@@ -1,4 +1,4 @@
-# Add files to Your EC2 Instance Using S3 and IAM
+# Adding files to your EC2 Instance Using S3 and IAM
 
 ### **What is Amazon S3?**
 Amazon S3 is an object storage service that provides industry-leading scalability, data availability, and security. It allows you to store and retrieve any amount of data at any time. In this guide, we will use S3 to store image files and transfer them to your EC2 instance.

@@ -1,4 +1,4 @@
-# Step-by-Step Guide to Configuring an Elastic Load Balancer with Multiple Instances
+# Configuring an Elastic Load Balancer with Multiple Instances
 
 This part will walk you through the process of setting up an Elastic Load Balancer (ELB) with three EC2 instances that provide slightly different outputs. This setup will help demonstrate how load balancing works by distributing traffic across the instances.
 

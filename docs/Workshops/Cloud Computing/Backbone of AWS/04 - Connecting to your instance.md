@@ -1,4 +1,4 @@
-# How to Connect to Your EC2 Instance
+# Connecting to your instance
 
 After launching your EC2 instance, follow these steps to connect:
 

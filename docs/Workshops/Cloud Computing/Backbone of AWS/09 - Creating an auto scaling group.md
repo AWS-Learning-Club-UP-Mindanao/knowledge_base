@@ -1,4 +1,4 @@
-# How to Set Up an Auto Scaling Group in EC2
+# Seting Up an Auto Scaling Group in EC2
 
 ## Prerequisites
 Before creating an Auto Scaling Group, ensure that:

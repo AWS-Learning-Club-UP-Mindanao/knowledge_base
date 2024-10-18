@@ -1,5 +1,4 @@
-
-# Apache Web Server Setup on EC2
+# Apache Web Server Setup on EC2 instace
 
 ## 1. Install the Apache Web Server
 Apache is an open-source web server that processes HTTP requests and serves web content. Run the following command to install Apache:
@@ -137,13 +136,24 @@ For funsies, copy-paste your favorite static HTML website into this server and w
 This is mine, lets watch yours!  
 
 ## 15. What if I dont have a static website?
-- Add image from your local machine to the server.
+- We will provide you with a simple HTML template that you can use.
 
 Copy paste this to vim
 
 ```
-<img >
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EC2 Instance</title>
+</head>
+<body>
+    <h1>Instance 1</h1>
+    <img src="path/to/your/image.png" ">
+</body>
+</html>
 ```
+
+- Prepare some image for later use of the workshop.
 
 As you can see, pictures and videos wont load. Let's solve that.
 
